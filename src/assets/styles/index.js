@@ -1,5 +1,7 @@
 import {StyleSheet, Dimensions} from 'react-native';
 import colors from '../colors';
+import { NavigationContainer, DefaultTheme, DarkTheme } from '@react-navigation/native';
+
 
 const {height, width} = Dimensions.get('window');
 const styles = StyleSheet.create({
@@ -306,7 +308,7 @@ const styles = StyleSheet.create({
   h1: {
     ...Platform.select({
       ios: {fontSize: 24},
-      android: {fontSize: 22},
+      android: {fontSize: 24},
     }),
     fontWeight: 'bold',
     color : colors.black
@@ -378,3 +380,6 @@ const styles = StyleSheet.create({
 });
 
 export default styles;
+
+
+
