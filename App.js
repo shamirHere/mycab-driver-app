@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
-import { CreateAccount , SignIn , ForgotPassword , VerifyOtp , CompleteProfile } from './src/screens/auth'
+import { CreateAccount , SignIn , ForgotPassword , VerifyOtp , Documents } from './src/screens/auth'
 
 const App = () => {
   const Stack = createNativeStackNavigator(); 
@@ -12,7 +12,7 @@ const App = () => {
         <Stack.Screen name='SignIn' component={SignIn}/>
         <Stack.Screen name='ForgotPassword' component={ForgotPassword}/>
         <Stack.Screen name='VerifyOtp' component={VerifyOtp}/>
-        <Stack.Screen name='CompleteProfile' component={CompleteProfile}/>
+        <Stack.Screen name='Documents' component={Documents}/>
       </Stack.Navigator>
     </NavigationContainer>
   )

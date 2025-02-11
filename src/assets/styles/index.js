@@ -332,6 +332,7 @@ const styles = StyleSheet.create({
   h4: {
     fontSize: 16,
     fontWeight: 'bold',
+    color : colors.black
   },
   h5: {
     ...Platform.select({

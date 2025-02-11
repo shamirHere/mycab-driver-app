@@ -4,5 +4,6 @@ const icons = {
     opened_eye : require("../assets/icons/opened_eye.png") , 
     google_icon : require ("./icons/google_icon.png") , 
     left_arrow : require("./icons/left_arrow.png"),
+    icon_forward : require("./icons/icon_forward.png"), 
 } 
 export default icons; 

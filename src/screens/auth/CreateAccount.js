@@ -28,6 +28,11 @@ const Welcome = ({navigation, route}) => {
         <TitleInput placeholder={'Enter your name'} title={'Name'} />
         <TitleInput placeholder={'Enter email'} title={'Email'} />
         <TitleInput
+          placeholder={'Phone number'}
+          title={'Enter phone number'}
+          keyboardType='numeric'
+        />
+        <TitleInput
           placeholder={'Enter Password'}
           title={'Password'}
           secureTextEntry={true}
@@ -36,7 +41,7 @@ const Welcome = ({navigation, route}) => {
         <Button
           label={'Sign Up'}
           buttonStyle={[styles.mt20, styles.mb24]}
-          onPress={() => navigation.navigate('CompleteProfile')}
+          onPress={() => navigation.navigate('Documents')}
         />
 
         <View

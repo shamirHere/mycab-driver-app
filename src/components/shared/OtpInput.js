@@ -52,7 +52,7 @@ const OTPInput = ({OTPInputStyle}) => {
               width: 50,
               height: 50,
               borderWidth: 1,
-              borderColor: colors.grey80, // Light gray border color
+              borderColor: colors.grey80,
               borderRadius: 10,
               textAlign: 'center',
               fontSize: 18,
